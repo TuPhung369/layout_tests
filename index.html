@@ -1,55 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        /* Container for the whole layout */
-        .flex-container {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #2196F3;
-            padding: 10px;
-            gap: 10px;
-        }
-
-        .header, .menu, .main, .right, .footer {
-            background-color: rgba(255, 255, 255, 0.8);
-            text-align: center;
-            padding: 20px 0;
-            font-size: 30px;
-        }
-
-        /* Container for the middle row */
-        .middle-row {
-            display: flex;
-            flex-grow: 1;
-            gap: 10px;
-        }
-
-        .menu, .right {
-            /* Adjust widths as needed */
-            flex-basis: 20%;
-        }
-
-        .main {
-            flex-grow: 1; /* Allow the main area to grow and fill the available space */
-        }
-
-        .footer {
-            text-align: center;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 600px) {
-            .middle-row {
-                flex-direction: column;
-            }
-
-            .menu, .main, .right {
-                flex-basis: auto; /* Reset widths for vertical stacking */
-            }
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <title>Grid Container</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
