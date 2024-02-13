@@ -24,7 +24,7 @@
 
 .menu, .right {
   /* Adjust widths as needed */
-  flex-basis: 20%;
+  flex-basis: 15%;
 }
 
 .main {
