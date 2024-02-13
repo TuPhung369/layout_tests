@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  width: 100%;
+  overflow: auto;
+}
+
+.header, .footer {
+  background-color: #2196F3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu, .main, .right {
+  float: left;
+  padding: 20px;
+  width: 33.333%; /* Divide the container into thirds */
+}
+
+.menu { background-color: #64B5F6; }
+.main { background-color: #90CAF9; }
+.right { background-color: #BBDEFB; }
+
+.footer {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .menu, .main, .right {
+    width: 100%; /* Stack them on smaller screens */
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">Header</div>
+<div class="container">
+  <div class="menu">Menu</div>
+  <div class="main">Main</div>
+  <div class="right">Right</div>
+</div>
+<div class="footer">Footer</div>
+
+</body>
+</html>
