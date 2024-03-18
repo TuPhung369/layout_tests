@@ -30,7 +30,10 @@
 .main {
   flex-grow: 1; /* Allow the main area to grow and fill the available space */
 }
-
+.main img {
+  width: 400px;
+  height: 300px;
+}
 .footer {
   text-align: center;
 }

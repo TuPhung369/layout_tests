@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 20% 1fr 20%; /* Three rows */
+    gap: 10px; /* Gap between grid items */
+    width: 100%; /* Make the grid container full width of viewpoint */
+    height: 100vh; /* Make the grid container full height of the viewport */
+}
+
+.grid-r1, .grid-r3 {
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 69px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%; /* Make grid items full width of grid container */
+}
+
+.grid-r1 {
+    background-color: blue;
+}
+
+.grid-r3 {
+    background-color: green;
+}
+
+.grid-r2 {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%; /* Three columns of equal width */
+}
+
+.grid-c1,.grid-c2,.grid-c3 {
+    display: grid;
+    grid-template-rows: 20% 1fr 20%; /* Three rows of equal height */
+}
+
+
+.grid-item11, .grid-item21, .grid-item31,.grid-item12, .grid-item22, .grid-item32,.grid-item13, .grid-item23, .grid-item33 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 50px;
+}
+.grid-item11{
+    background-color: blue;
+}
+
+.grid-item21{
+    background-color: oldlace;
+}
+
+.grid-item31{
+    background-color: red;
+}
+
+.grid-item12{
+    background-color:white;
+}
+
+.grid-item22{
+    background-color: yellow;
+}
+
+.grid-item32{
+    background-color: purple;
+}
+
+.grid-item13{
+    background-color: blue;
+}
+
+.grid-item23{
+    background-color: orange;
+}
+
+.grid-item33{
+    background-color: silver;
+}
