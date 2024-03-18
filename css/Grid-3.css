@@ -25,6 +25,9 @@ html, body {
 .grid-r1 {
     background-color: blue;
 }
+.grid-r1 a{
+    color:white;
+}
 
 .grid-r3 {
     background-color: green;
