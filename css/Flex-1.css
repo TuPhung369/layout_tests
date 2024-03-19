@@ -35,11 +35,16 @@ body {
     height: calc(100% - 20px);
     width: 100%; /* Make the container take up the full viewport width */
     font-size: 69px;
-    background-color: green;
+    background-color: rgb(41, 13, 142);
     color: white;
     margin:10px
 }
-
+.flex-c2 p {
+font-size: 30px;
+text-align: left;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:lightblue;
+}
 .flex-c3 {
     flex-basis:  calc(20% - 5px); /* Take up 20% of the container width */
     text-align: center;
