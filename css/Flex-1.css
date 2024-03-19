@@ -1,47 +1,52 @@
-/* Body and HTML styles */
-html, body {
+body {
     margin: 0;
     padding: 0;
+    height: 100vh; /* Set the width to 100% of the viewport width */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    background-color: rgb(0, 0, 0);
 }
 
 /* Flexbox styles */
 .flex-container {
     display: flex;
-    flex-direction: row; /* Assuming you want a horizontal layout */
-    justify-content: space-around; /* Adjust as needed */
-    align-items: center; /* Adjust as needed */
-    gap: 10px; /* Gap between grid items */
+    flex-direction: row; /* Vertical layout */
+    height: 100%; /* Make the container take up the full viewport width */
+    width: 100%; /* Make the container take up the full viewport width */
+    padding: 0 10px 0 10px;
 }
 
 .flex-c1 {
-    border: 1px solid #ccc; /* Example border */
-    padding: 20px; /* Example padding */
-    width: 20%; /* Adjust as needed */
-    text-align: center; /* Adjust as needed */
-    height: 100vh;
+    flex: 0 0 calc(20% - 5px); /* Take up 20% of the container width */
+    text-align: center;
+    height: calc(100% - 20px);
+    width: 100%; /* Make the container take up the full viewport width */
     font-size: 69px;
     background-color: red;
+    margin:10px 0 10px 0;
 }
+
 .flex-c1 a {
-    color:white;
+    color: white;
 }
+
 .flex-c2 {
-    border: 1px solid #ccc; /* Example border */
-    padding: 20px; /* Example padding */
-    width: 60%; /* Adjust as needed */
-    text-align: center; /* Adjust as needed */
-    height: 100vh;
+    flex: 0 0 calc(60% - 10px); /* Take up 60% of the container width */
+    text-align: center;
+    height: calc(100% - 20px);
+    width: 100%; /* Make the container take up the full viewport width */
     font-size: 69px;
     background-color: green;
-    color:white;
+    color: white;
+    margin:10px
 }
+
 .flex-c3 {
-    border: 1px solid #ccc; /* Example border */
-    padding: 20px; /* Example padding */
-    width: 20%; /* Adjust as needed */
-    text-align: center; /* Adjust as needed */
-    height: 100vh;
+    flex: 0 0 calc(20% - 5px); /* Take up 20% of the container width */
+    text-align: center;
+    height: calc(100% - 20px);
+    width: 100%; /* Make the container take up the full viewport width */
     font-size: 69px;
     background-color: blue;
     color: white;
+    margin:10px 0px 10px 0;
 }
