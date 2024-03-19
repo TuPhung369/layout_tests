@@ -29,7 +29,12 @@ html, body {
 .grid-c2 {
     background-color: red;
 }
-
+.grid-c2 p {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
 .grid-c3 {
     background-color: green;
 }

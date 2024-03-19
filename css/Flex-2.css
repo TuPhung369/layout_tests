@@ -39,7 +39,12 @@ body {
     color: white;
     margin:10px
 }
-
+.flex-r2 p {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
 .flex-r3 {
     flex-basis:  calc(20% - 10px); /* Take up 20% of the container height */
     text-align: center;
@@ -50,4 +55,7 @@ body {
     color: white;
     margin:0 10px 0px 10px;
     padding-bottom: 20px;
+}
+.flex-r3 img {
+    margin-top: 20px;
 }

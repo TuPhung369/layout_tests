@@ -5,7 +5,7 @@ html, body {
 
 .grid-container {
     display: grid;
-    grid-template-rows: 20% 1fr 20%; /* Three rows */
+    grid-template-rows: 20% 1fr 30%; /* Three rows */
     gap: 10px; /* Gap between grid items */
     width: 100%; /* Make the grid container full width of viewpoint */
     height: 100vh; /* Make the grid container full height of the viewport */
@@ -30,8 +30,15 @@ html, body {
 
 .grid-r3 {
     background-color: green;
+    color:black;
+    font-size: 46px;
 }
-
+.grid-r3 p {
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
 .grid-r2 {
     display: grid;
     grid-template-columns: 20% 1fr 20%; /* Three columns of equal width */
@@ -74,6 +81,8 @@ html, body {
 
 .grid-item22{
     background-color: yellow;
+    display: grid;
+    
 }
 
 .grid-item32{

@@ -36,22 +36,23 @@ body {
     width: 100%; /* Make the container take up the full viewport width */
     font-size: 69px;
     background-color: rgb(41, 13, 142);
-    color: white;
+    color: yellow;
     margin:10px
 }
 .flex-c2 p {
 font-size: 30px;
 text-align: left;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color:lightblue;
+color: white;
 }
 .flex-c3 {
     flex-basis:  calc(20% - 5px); /* Take up 20% of the container width */
     text-align: center;
-    height: calc(100% - 20px);
+    height: calc(100% - 40px);
     width: 100%; /* Make the container take up the full viewport width */
     font-size: 69px;
     background-color: blue;
     color: white;
     margin:10px 0px 10px 0;
+    padding: 20px 10px 0 0;
 }
