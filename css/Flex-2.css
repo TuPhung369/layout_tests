@@ -16,7 +16,7 @@ body {
 }
 
 .flex-r1 {
-    flex: 0 0 calc(20% - 10px); /* Take up 20% of the container height */
+    flex-basis:  calc(20% - 10px); /* Take up 20% of the container height */
     text-align: center;
     width: calc(100% - 20px);
     height: 100%; /* Make the container take up the full viewport height */
@@ -30,7 +30,7 @@ body {
 }
 
 .flex-r2 {
-    flex: 0 0 calc(60% - 20px); /* Take up 60% of the container height */
+    flex-basis:  calc(60% - 20px); /* Take up 60% of the container height */
     text-align: center;
     width: calc(100% - 20px);
     height: 100%; /* Make the container take up the full viewport height */
@@ -41,7 +41,7 @@ body {
 }
 
 .flex-r3 {
-    flex: 0 0 calc(20% - 10px); /* Take up 20% of the container height */
+    flex-basis:  calc(20% - 10px); /* Take up 20% of the container height */
     text-align: center;
     width: calc(100% - 20px);
     height: 100%; /* Make the container take up the full viewport height */

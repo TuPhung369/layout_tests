@@ -16,7 +16,7 @@ body {
 }
 
 .flex-r1 {
-    flex: 0 0 calc(20% - 10px); /* Take up 20% of the container height */
+    flex-basis:  calc(20% - 10px); /* Take up 20% of the container height */
     text-align: center;
     width: calc(100% - 20px);
     height: 100%; /* Make the container take up the full viewport height */
@@ -30,7 +30,7 @@ body {
 }
 
 .flex-r3 {
-    flex: 0 0 calc(20% - 10px); /* Take up 20% of the container height */
+    flex-basis:  calc(20% - 10px); /* Take up 20% of the container height */
     text-align: center;
     width: calc(100% - 20px);
     height: 100%; /* Make the container take up the full viewport height */
@@ -44,7 +44,7 @@ body {
 .flex-r2 {
     display:flex;
     flex-direction: row;
-    flex: 0 0 calc(60% - 20px); /* Take up 60% of the container height */
+    flex-basis:  calc(60% - 20px); /* Take up 60% of the container height */
     text-align: center;
     width: calc(100% - 20px);
     height: 100%; /* Make the container take up the full viewport height */
@@ -55,7 +55,7 @@ body {
 }
 
 .flex-c1 {
-    flex: 0 0 calc(20% - 5px); /* Take up 20% of the container width */
+    flex-basis:  calc(20% - 5px); /* Take up 20% of the container width */
     text-align: center;
     height: calc(100% - 20px);
     width: 100%; /* Make the container take up the full viewport width */
@@ -71,7 +71,7 @@ body {
 }
 
 .flex-c2 {
-    flex: 0 0 calc(60% - 10px); /* Take up 60% of the container width */
+    flex-basis:  calc(60% - 10px); /* Take up 60% of the container width */
     text-align: center;
     height: calc(100% - 20px);
     width: 100%; /* Make the container take up the full viewport width */
@@ -85,7 +85,7 @@ body {
 }
 
 .flex-c3 {
-    flex: 0 0 calc(20% - 5px); /* Take up 20% of the container width */
+    flex-basis:  calc(20% - 5px); /* Take up 20% of the container width */
     text-align: center;
     height: calc(100% - 20px);
     width: 100%; /* Make the container take up the full viewport width */
@@ -110,7 +110,7 @@ body {
     align-items: center;
     margin: 5px 5px 5px 5px;
     border-radius: 50px;
-    flex: 0 0 20%;
+    flex-basis:  20%;
 }
 .flex-item11{
     background-color: blue;
